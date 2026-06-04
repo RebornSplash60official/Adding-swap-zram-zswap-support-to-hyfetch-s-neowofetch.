@@ -1,6 +1,6 @@
 Firstly I'm quite sure this is the janky way of setting this up, but was what I was able to come up with in 4 hours, but it's easy to copy & paste. 
 
-    • Note: Sys Swap shows the total amount of swap your system has. For example, if you have a 4GiB disk swap file and 4GiB of Zram configured,Sys Swap will report 8GiB of total swap instead of just the disk swap amount.
+    • Note: Sys Swap shows the total amount of swap your system has. If you have Zram configured as swap, Sys Swap shows there being 8GiB of swap.
 
 
 
