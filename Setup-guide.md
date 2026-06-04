@@ -1,19 +1,18 @@
 Firstly I'm quite sure this is the janky way of setting this up, but was what I was able to come up with in 4 hours, but it's easy to copy & paste. 
 
-Note: Sys Swap shows the total amount of swap your system has. 
-For example, if you have a 4GiB disk swap file and 4GiB of Zram configured,
-Sys Swap will report 8GiB of total swap instead of just the disk swap amount.
+    • Note: Sys Swap shows the total amount of swap your system has. For example, if you have a 4GiB disk swap file and 4GiB of Zram configured,Sys Swap will report 8GiB of total swap instead of just the disk swap amount.
 
 
 
 Step T: Open your neowofetch config file.
-nano ~.config/neowofetch/config.conf
+    • nano ~.config/neowofetch/config.conf
 
 Step 0: Copy one of the listed below configs into the print_info() { info clos}
-secuion of the config file.
+section of the config file.
 
-Note: config-T adds iB/B to outputs that output G/Gi, config-0 is the defualt output of those outputs.
-Note: I genrally would put custom config part below info "Memory" memory.
+    • Note: config-T adds iB/B to outputs that output G/Gi, config-0 is the defualt output of those outputs.
+      
+    • Note: I genrally would put custom config part below info "Memory" memory.
 
 Config-T:
 
