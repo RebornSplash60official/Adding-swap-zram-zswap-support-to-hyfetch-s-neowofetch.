@@ -5,7 +5,7 @@ Firstly I'm quite sure this is the janky way of setting this up, but was what I 
 
 
 Step T: Open your neowofetch config file.
-    • nano ~.config/neowofetch/config.conf
+    • nano ~/.config/neowofetch/config.conf
 
 Step 0: Copy one of the listed below configs into the print_info() { info clos}
 section of the config file.
